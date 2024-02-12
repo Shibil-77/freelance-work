@@ -8,8 +8,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container">
-      <nav className="sticky  top-0 bg-opacity-95 backdrop-blur-md z-50 p-3 py-5   lg:border-b-2 border-opacity-40 border-black">
+    <div className="lg:container ">
+      <nav className="sticky top-0  bg-white z-50 p-3 py-5   lg:border-b-2 border-opacity-40 border-black">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto  ">
           <a href="/" className="flex items-center">
             {/* <img src={Logo} className="h-14 mr-3" alt="Logo" /> */}
@@ -94,8 +94,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div class="w-full text-center lg:text-9xl pb-3 text-2xl lg:border-t-0 border-t-2 border-b-2 border-opacity-40 border-black">
-        WALLPAPERS Hello Hai
+      <div class="w-full   pb-3  lg:border-t-0 border-t-2 border-b-2 border-opacity-40 border-black">
+        <p className="lg:text-9xl text-center text-5xl font-extrabold"> WALLPAPERS</p>
       </div>
     </div>
   );
