@@ -5,7 +5,7 @@ const Service = () => {
   return (
     <div className="container">
       <h1 className="text-center text-7xl font-extrabold">Service</h1>
-      <hr className="w-full h-[1.5px]  mt-20 mx-auto  bg-neutral-600" />
+      <hr className="w-full h-[1.5px]  mt-10 mx-auto  bg-neutral-600" />
       <div className="flex gap-5 justify-center my-10 flex-wrap">
       <div class="lg:w-4/12  w-full max-w-sm bg-white   rounded-t-3xl  ">
           <a href="#">
@@ -14,7 +14,22 @@ const Service = () => {
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
+                Noteworthy technology
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-center text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+          </div>
+        </div>  <div class="lg:w-4/12  w-full max-w-sm bg-white   rounded-t-3xl  ">
+          <a href="#">
+            <img class="rounded-3xl" src={testImg} alt="" />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
+                Noteworthy technology 
               </h5>
             </a>
             <p class="mb-3 font-normal text-center text-gray-700 dark:text-gray-400">
@@ -44,22 +59,7 @@ const Service = () => {
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
-              </h5>
-            </a>
-            <p class="mb-3 font-normal text-center text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
-            </p>
-          </div>
-        </div>  <div class="lg:w-4/12  w-full max-w-sm bg-white   rounded-t-3xl  ">
-          <a href="#">
-            <img class="rounded-3xl" src={testImg} alt="" />
-          </a>
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
+                Noteworthy technology 
               </h5>
             </a>
             <p class="mb-3 font-normal text-center text-gray-700 dark:text-gray-400">
