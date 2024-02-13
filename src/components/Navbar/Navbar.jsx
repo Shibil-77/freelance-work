@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import emailIcon from "../../assets/icons/email (2).png";
+import phoneIcon from "../../assets/icons/call.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,15 +11,28 @@ const Navbar = () => {
 
   return (
     <div className="lg:container ">
-      <nav className="sticky top-0  bg-white z-50 p-3 py-5   lg:border-b-2 border-opacity-40 border-black">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto  ">
+      <nav className="sticky top-0  bg-[#E0E0E0] z-50 p-0 py-5   lg:border-b-[3px] border-opacity-40 border-black ">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between ">
           <a href="/" className="flex items-center">
             {/* <img src={Logo} className="h-14 mr-3" alt="Logo" /> */}
+            <h1 className="text-3xl font-semibold">WALLY</h1>
           </a>
           <div className="flex md:order-2 ">
             <div className="flex ">
-              <img src="" alt="" className="mb-2" />
-              <img src="" alt="" className="ml-6" />
+              <img
+                src={phoneIcon}
+                alt=""
+                width={20}
+                height={20}
+                className="mb-2 mt-2"
+              />
+              <img
+                src={emailIcon}
+                alt=""
+                height={10}
+                width={15}
+                className="ml-6"
+              />
             </div>
             <div className="lg:block hidden self-center">
               <a href="https://play.google.com/store/apps/details?id=com.vehicify.vehicifydriver">
@@ -60,7 +75,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0"
+                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0"
                   aria-current="page"
                 >
                   HOME
@@ -69,7 +84,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0 "
                 >
                   ABOUT
                 </a>
@@ -77,7 +92,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0 "
                 >
                   PRICING
                 </a>
@@ -85,7 +100,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0 "
                 >
                   CONTACT
                 </a>
@@ -94,8 +109,11 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div class="w-full   pb-3  lg:border-t-0 border-t-2 border-b-2 border-opacity-40 border-black">
-        <p className="lg:text-9xl text-center text-5xl font-extrabold"> WALLPAPERS</p>
+
+      <div class="w-full pb-3 lg:border-t-0 border-t-2 border-b-[3px] border-opacity-40 border-black">
+        <p className="lg:text-[10.9rem] text-center text-7xl font-extrabold">
+          BUILD WITH US
+        </p>
       </div>
     </div>
   );
