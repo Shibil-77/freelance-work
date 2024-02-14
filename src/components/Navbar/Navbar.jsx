@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between ">
           <a href="/" className="flex items-center">
             {/* <img src={Logo} className="h-14 mr-3" alt="Logo" /> */}
-            <h1 className="text-3xl font-semibold">WALLY</h1>
+            <h1 className="text-2xl font-bold">PMR CONCRETE</h1>
           </a>
           <div className="flex md:order-2 ">
             <div className="flex lg:space-x-6 ">

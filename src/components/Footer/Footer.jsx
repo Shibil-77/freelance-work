@@ -6,7 +6,7 @@ const Footers = () => {
     <>
       <footer className="relative z-10 bg-[#d1d1d1] pb-10 pt-20  dark:bg-dark lg:pt-[100px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+          <div className="mx-auto flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 inline-block">
