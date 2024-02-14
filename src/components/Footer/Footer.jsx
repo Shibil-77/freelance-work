@@ -9,8 +9,8 @@ const Footers = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
-                <a href="/#" className="mb-6 inline-block max-w-[160px]">
-                  <img
+                <a href="/#" className="mb-6 inline-block">
+                  {/* <img
                     src={logo}
                     alt="logo"
                     className="max-w-full dark:hidden"
@@ -19,7 +19,10 @@ const Footers = () => {
                     src={logo}
                     alt="logo"
                     className="max-w-full hidden dark:block"
-                  />
+                  /> */}
+                  <span className="dark:hidden text-2xl font-bold">PMR-CONCRETE</span>
+                  <hr />
+                  {/* <span className="dark:block">PMR-CONCRETE</span> */}
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
                   <strong>Company location :</strong> Malappuram, Kerala 676517

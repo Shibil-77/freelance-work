@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="w-full lg:flex my-10 bg-[#d1d1d1] py-10">
       <div className="lg:w-6/12 w-full my-auto  lg:ml-36 py-auto lg:mx-0 mx-5">
-        <h1 className="text-black lg:text-8xl text-5xl  font-sans ">
+        <h1 className="text-black lg:text-8xl text-5xl lg:font-bold  font-sans ">
           IN THE
           <br />
           SPOTLIGHT!

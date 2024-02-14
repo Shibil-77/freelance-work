@@ -9,13 +9,13 @@ const arr = [1, 2, 3, 4, 5, 6];
 const Service = () => {
   return (
     <div className="lg:container">
-      <h1 className="text-center text-7xl mb-3 font-extrabold">SERVICE</h1>
-      <hr className="w-full h-[3px]  my-2 mx-auto  bg-neutral-600" />
+      <h1 className="text-center text-8xl mb-3 font-extrabold">SERVICE</h1>
+      <hr className="w-full h-[3px]  my-4 mx-auto  bg-neutral-600" />
       <h1 className="text-center text-xl font-mono">
         {" "}
         Here are the biggest enterprise technology...
       </h1>
-      <hr className="w-8/12 h-[3px]  mt-2 mx-auto  bg-neutral-600" />
+      <hr className="w-8/12 h-[3px]  mt-3 mx-auto  bg-neutral-600" />
       <div className="flex gap-5 justify-center my-10 flex-wrap">
         {arr.map((items, index) => {
           return (

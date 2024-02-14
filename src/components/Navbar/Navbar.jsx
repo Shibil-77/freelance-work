@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import emailIcon from "../../assets/icons/email (2).png";
-import phoneIcon from "../../assets/icons/call.png";
+
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,21 +19,9 @@ const Navbar = () => {
             <h1 className="text-3xl font-semibold">WALLY</h1>
           </a>
           <div className="flex md:order-2 ">
-            <div className="flex ">
-              <img
-                src={phoneIcon}
-                alt=""
-                width={20}
-                height={20}
-                className="mb-2 mt-2"
-              />
-              <img
-                src={emailIcon}
-                alt=""
-                height={10}
-                width={15}
-                className="ml-6"
-              />
+            <div className="flex lg:space-x-6 ">
+              <span className="text-lg self-center"><FaPhoneAlt/></span>
+              <span className="text-2xl self-center"><MdEmail/></span>
             </div>
             <div className="lg:block hidden self-center">
               <a href="https://play.google.com/store/apps/details?id=com.vehicify.vehicifydriver">
@@ -111,7 +100,7 @@ const Navbar = () => {
       </nav>
 
       <div class="w-full pb-3 lg:border-t-0 border-t-2 border-b-[3px] border-opacity-40 border-black">
-        <p className="lg:text-[10.9rem] text-center text-7xl font-extrabold">
+        <p className="lg:text-[10.8rem] text-center text-7xl font-extrabold">
           BUILD WITH US
         </p>
       </div>
