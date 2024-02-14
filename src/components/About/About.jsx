@@ -1,7 +1,8 @@
 import React from "react";
-import AboutImg from "../../assets/test/b73c6a32c636d32b8e87e6b7587211d6ac55dcf9_2000x2000.webp";
+import AboutImg from "../../assets/images-src/Concrete-1.JPG";
 
 const About = () => {
+  // bg-[#d1d1d1] 
   return (
     <div className="w-full lg:flex my-10 bg-[#d1d1d1] py-10">
       <div className="lg:w-6/12 w-full my-auto  lg:ml-36 py-auto lg:mx-0 mx-5">
@@ -10,17 +11,16 @@ const About = () => {
           <br />
           SPOTLIGHT!
         </h1>
-        <p className="mt-5 font-mono">
+        <p className="mt-5 font-medium pr-4 font-mono">
           {" "}
-          Here are the biggest technology acquisitions of so far, in reverse{" "}
-          <br /> chronological order.reverse chronological order.
+          Our construction firm blends modern methods with proven craftsmanship, <br />ensuring exceptional projects that surpass expectations and ensure lasting satisfaction.
         </p>
         {/* <div className=" w-full py-6 flex justify-center gap-8 "> */}
         <button
           type="button"
           class="text-white mt-10  shadow-sm bg-[#1a1717] bg-opacity-90 px-16 hover:bg-gray-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm  py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
         >
-          SHOW WALLPAPERS
+          BUILD WITH PMR
         </button>
         {/* </div> */}
       </div>
